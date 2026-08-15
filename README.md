@@ -4,6 +4,5 @@
 
 ![jokes](https://readme-jokes.vercel.app/api)
 
-<img src="https://github-readme-stats.vercel.app/api?username=KrekerDM&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
 
 </div>
