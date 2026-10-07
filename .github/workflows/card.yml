@@ -1,0 +1,36 @@
+# Пересобирает карточку профиля из релизов GitHub раз в сутки.
+# Коммитит, только если на карточке изменился текст.
+name: card
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/gen_card.py]
+
+permissions:
+  contents: write
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      # Те же версии, что при первой сборке: фон получается байт в байт.
+      - run: pip install pillow==12.1.0 numpy==2.2.6
+      - run: python tools/gen_card.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Карточка: данные из релизов"
+          git push
