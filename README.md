@@ -1,8 +1,1 @@
-<div align="center">
-
-![](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=520&lines=git+commit+-m+%22final+fix%22;git+commit+-m+%22actual+final+fix%22;git+blame+%E2%86%92+it+was+me;works+on+my+machine+%F0%9F%A4%B7)
-
-![jokes](https://readme-jokes.vercel.app/api)
-
-
-</div>
+<img src="assets/card.svg" width="100%" alt="KrekerDM. Норвегия, на GitHub с мая 2026, сайт klondaik.uk. Шесть программ для Windows с готовой сборкой, бот для Minecraft и юзерскрипт для YouTube; у пяти проектов из восьми интерфейс на русском и английском. klondaik-tweaker: 148 твиков, каждый откатывается отдельно. BaritoneBots: клиент без окна, около 1 ГБ RAM на бота. RadioSetLink-RSL: FPV-пульт как геймпад Xbox 360 по CRSF. handwriting-recognition: CNN на PyTorch показывает свои активации. cluumsy: 6 видов порчи своего трафика через WinDivert. sv.autoclick: ищет цель по картинке, а не по координатам. discord-webhook-sender: предпросмотр как в Discord, до 10 embeds. shorts-blocker: убирает Shorts, 140 строк без зависимостей. BaritoneBots пока бета, у остальных семи релиз 1.0 или новее.">
