@@ -50,7 +50,7 @@
     <rect class="hairline" x="56" y="288" width="728" height="1"/>
     <text class="mono name" x="56" y="313">RadioSetLink-RSL</text>
     <text class="sans body soft" x="264" y="313">FPV-пульт как геймпад Xbox 360 по CRSF</text>
-    <text class="mono small dim" x="784" y="313" text-anchor="end">1.0.0</text>
+    <text class="mono small dim" x="784" y="313" text-anchor="end">1.1.0</text>
     <rect class="hairline" x="56" y="328" width="728" height="1"/>
     <text class="mono name" x="56" y="353">handwriting-recognition</text>
     <text class="sans body soft" x="264" y="353">CNN на PyTorch показывает свои активации</text>
